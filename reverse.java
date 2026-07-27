@@ -6,7 +6,6 @@ public class reverse{
 		System.out.print("Enter the number : ");
 		int a=sc.nextInt();
 		int h,rev=0;
-		int temp=a;
 		while(a>0){
 			h=a%10;
 			rev=(rev*10)+h;
