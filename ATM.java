@@ -12,7 +12,6 @@ public class ATM{
         }
         else{
             System.out.print("NOT ELIGIBLE");
-        }
-
+        }  
     }
 }
