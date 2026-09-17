@@ -4,7 +4,6 @@ public class reverse_array{
 		Scanner sc = new Scanner(System.in);
 		int[] arr = new int[20];
 		int[] rev = new int[20];
-		int ce=0,co=0;
 		System.out.print("enter size : ");
 		int n = sc.nextInt();
 		for(int i =0;i<n;i++){
