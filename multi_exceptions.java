@@ -7,10 +7,7 @@ public class multi_exceptions{
            a=42/d;
            arr[10]=8; 
         } 
-        catch (ArithmeticException e) {
-            System.out.println(e);
-        }
-        catch (ArrayIndexOutOfBoundsException e){
+        catch (Exception e) {
             System.out.println(e);
         }
     }
